@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/cssBuscar/buscar.css">
+    <title>Buscar Pais</title>
+</head>
+<body>
+    <header class="encabezado" id="inicio">
+        <div class="logo">
+            <h2>Rueda por el <span>mundo</span></h2>
+        </div>
+        <div class="Navegacion">
+            <a href="inicio.html">Inicio</a>
+            <a >Buscar</a>
+            <a href="comentario.html">Comentario</a>
+        </div>
+    </header>
+
+    <select class="selecPais" name="pais" id="pais" >
+        <option>Seleccione un Pais....</option>
+    </select>
+    <div class="rselecPais" id="resul"></div>
+
+    <div>
+        <button class="bselecPais" id="buscar" onclick="buscarPais()">Buscar tu ruta</button>
+    </div>
+
+    <div class="rbuscar" id="resultado"></div>
+        
+    <footer class="fouter">
+        <div>
+            <h6>Cristian Alvarez</h6>
+        </div>
+            <a href="https://api.citybik.es/v2/#net_resource">Fuente Api usada</a>
+    </footer>
+	
+</body>
+<script type="text/javascript" src="js/buscar.js"></script>
+</html>

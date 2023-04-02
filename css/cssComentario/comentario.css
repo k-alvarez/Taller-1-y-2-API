@@ -1,0 +1,73 @@
+body {
+  background-color: antiquewhite;
+  background-image: url("../imagenes/fondo3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.logo h2 {
+  background-color: rgb(225, 225, 233);
+  color: rgb(151, 112, 5);
+}
+
+.logo h2 span {
+  color: rgb(99, 139, 114);
+}
+
+.comentario {
+  background-color: rgb(229, 233, 233);
+  position: absolute;
+  top: 50;
+  right: 200;
+  width: 40%;
+  color: black;
+}
+.comentario label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.comentario input[type=text],
+.comentario textarea {
+  width: 95%;
+  background-position: center center;
+  border-bottom: 1px solid red;
+  padding: 0.5rem;
+  position: sticky;
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
+
+.bcoment {
+  width: 100%;
+  border: none;
+  color: rgba(5, 5, 5, 0.5);
+  text-align: center;
+  padding: 15px 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.result {
+  background-color: rgb(206, 204, 195);
+  position: relative;
+  float: right;
+  width: 40%;
+  color: black;
+  border-radius: 2px red;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.fouter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(225, 225, 233);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  font-weight: 600;
+}/*# sourceMappingURL=comentario.css.map */

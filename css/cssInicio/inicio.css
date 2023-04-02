@@ -1,0 +1,47 @@
+body {
+  background-color: antiquewhite;
+  background-image: url("../imagenes/fondo3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.logo h2 {
+  color: rgb(151, 112, 5);
+}
+
+.logo h2 span {
+  color: rgb(99, 139, 114);
+}
+
+.alerta {
+  display: none;
+  background: rgba(226, 225, 215, 0.658);
+  padding: 20px;
+  color: rgba(119, 76, 12, 0.5);
+  width: 100%;
+  max-width: 900px;
+  border-radius: 20px;
+  position: fixed;
+  bottom: 300px;
+  left: 300px;
+  z-index: 100px;
+  box-shadow: 0px 2px 20px 10px rgba(222, 222, 222, 0.1);
+  text-align: center;
+}
+
+.alerta.activo {
+  display: block;
+}
+
+.alerta .bAlerta {
+  width: 100%;
+  background: rgba(85, 60, 23, 0.726);
+  border: none;
+  color: rgba(228, 220, 209, 0.5);
+  text-align: center;
+  padding: 15px 10px;
+  font-weight: 600;
+  cursor: pointer;
+}/*# sourceMappingURL=inicio.css.map */

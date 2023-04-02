@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="css/cssComentario/comentario.css">
+</head>
+<body>
+    <header class="encabezado" href="inicio.html">
+        <div class="logo">
+            <h2>Rueda por el <span>mundo</span></h2>
+        </div>
+        <div class="Navegacion">
+            <a href="inicio.html">Inicio</a>
+            <a href="buscar.html">Buscar</a>
+            <a>Comentario</a>
+        </div>
+    </header>
+
+    <h2>Comentario</h2>
+    <div class="comentario">   
+        <div> 
+            <h3> Informacion de contacto</h3>
+            
+        </div> 
+        <form class="fcometario">
+             <div class="nombre">
+                <label for="nombre">Nombre </label>
+                 <input type="text" id="fornombre" placeholder="Pedro Perez" class="fornombre">
+            </div>
+            <div class="pais">
+                <label for="pais">Pais </label>
+                <input type="text" id="forpais" placeholder="Colombia" class="forpais">
+            </div>
+                
+            <div class="coment">
+                <label>Comentario</label>
+                <textarea id="forcoment" class="forcoment"></textarea></label>
+            </div>
+
+            <div >
+                <button class="bcoment" type="reset" id="forboton" onclick="bcomentario()">Buscar tu ruta</button>
+            </div>
+
+            
+        </form>
+    </div>
+   
+    <div class="result" id="result"></div>
+
+     <footer class="fouter">
+        <div>
+            <h6>Cristian Alvarez</h6>
+        </div>
+            <a href="https://api.citybik.es/v2/#net_resource">Fuente Api usada</a>
+    </footer>
+	
+    
+	
+</body>
+<script type="text/javascript" src="clases/claseComment.js"></script>
+<script type="text/javascript" src="js/comentario.js"></script>
+</html>
